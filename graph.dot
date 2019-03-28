@@ -1,0 +1,30 @@
+digraph graph_name {
+
+  graph [
+    charset = "UTF-8";
+    labelloc = "t",
+    labeljust = "c",
+    bgcolor = "#343434",
+    fontcolor = white,
+    fontsize = 18,
+    style = "filled",
+    rankdir = TB,
+    margin = 0.2,
+  ];
+  node [
+    colorscheme = "rdylgn11"
+    style = "solid,filled",
+    fontsize = 14,
+    fontcolor = 6,
+    fontname = "Migu 1M",
+    color = 7,
+    fillcolor = 11
+  ];
+  edge [
+    color = white
+  ];
+
+    魂は不滅である -> 哲学者は死を望む;
+    思惟のみが真実在を捉えられる -> 哲学者は死を望む;
+
+}
